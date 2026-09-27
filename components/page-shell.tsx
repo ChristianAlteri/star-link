@@ -16,15 +16,9 @@ export function PageShell({
   return (
     <div className="min-h-dvh bg-neutral-50 text-neutral-900">
       <header className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto flex max-w-xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
+        <div className="mx-auto flex max-w-xl items-center px-4 py-3 sm:px-6">
           <Link href="/" className="truncate text-base font-semibold tracking-tight text-neutral-950">
             {name}
-          </Link>
-          <Link
-            href="/privacy"
-            className="inline-flex shrink-0 items-center rounded-full border border-neutral-200 bg-white px-3 py-1.5 text-xs text-neutral-600 transition-colors hover:border-neutral-300 hover:text-neutral-900"
-          >
-            Privacy
           </Link>
         </div>
       </header>
