@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "romeo-has-a-gun",
+    "hosts": ["localhost", "127.0.0.1"],
+    "name": "Romeo Has A Gun",
+    "tagline": "East London",
+    "avatarUrl": "",
+    "bannerUrl": "https://youtu.be/IjjI4v11KrY",
+    "theme": {
+      "bg": "#fafafa",
+      "fg": "#171717",
+      "accent": "#171717"
+    },
+    "meta": {
+      "pixelId": "",
+      "capiAccessToken": "",
+      "testEventCode": ""
+    },
+    "links": [
+      {
+        "id": "spotify",
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/229hIWTYgfF2OQxd7UqifF",
+        "platform": "spotify"
+      },
+      {
+        "id": "apple-music",
+        "label": "Apple Music",
+        "url": "https://music.apple.com/ca/artist/romeo-has-a-gun/1672695771",
+        "platform": "apple_music"
+      },
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "url": "https://www.youtube.com/romeo_has_a_gun",
+        "platform": "youtube"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/romeohasagun_",
+        "platform": "instagram"
+      },
+      {
+        "id": "tiktok",
+        "label": "TikTok",
+        "url": "https://www.tiktok.com/@romeohasagun_",
+        "platform": "tiktok"
+      }
+    ],
+    "lead": {
+      "enabled": true,
+      "heading": "Get the next drop",
+      "button": "Join"
+    }
+  }
+]
