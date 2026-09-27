@@ -84,7 +84,8 @@ Version-one tenant is `romeo-has-a-gun`:
 
 - Spotify — `https://open.spotify.com/artist/229hIWTYgfF2OQxd7UqifF`
 - Apple Music — `https://music.apple.com/ca/artist/romeo-has-a-gun/1672695771` (the Canada storefront URL; Apple still routes the listener by their own storefront)
-- YouTube — `https://www.youtube.com/romeo_has_a_gun`
+- YouTube — `https://www.youtube.com/@romeo_has_a_gun`
+- SoundCloud — `https://soundcloud.com/romeohasagun`
 - Instagram — `https://www.instagram.com/romeohasagun_`
 - TikTok — `https://www.tiktok.com/@romeohasagun_`
 
