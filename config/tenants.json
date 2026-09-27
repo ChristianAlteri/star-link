@@ -32,8 +32,14 @@
       {
         "id": "youtube",
         "label": "YouTube",
-        "url": "https://www.youtube.com/romeo_has_a_gun",
+        "url": "https://www.youtube.com/@romeo_has_a_gun",
         "platform": "youtube"
+      },
+      {
+        "id": "soundcloud",
+        "label": "SoundCloud",
+        "url": "https://soundcloud.com/romeohasagun",
+        "platform": "soundcloud"
       },
       {
         "id": "instagram",

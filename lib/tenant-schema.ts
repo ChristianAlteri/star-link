@@ -4,6 +4,7 @@ export const PLATFORMS = [
   "spotify",
   "apple_music",
   "youtube",
+  "soundcloud",
   "instagram",
   "tiktok",
   "bandcamp",

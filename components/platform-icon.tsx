@@ -25,6 +25,12 @@ function Glyph({ platform }: { platform: Platform }) {
           <path d="M23.5 6.2a3 3 0 0 0-2.12-2.14C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.38.46A3 3 0 0 0 .5 6.2 31.8 31.8 0 0 0 0 12a31.8 31.8 0 0 0 .5 5.8 3 3 0 0 0 2.12 2.14c1.88.46 9.38.46 9.38.46s7.5 0 9.38-.46a3 3 0 0 0 2.12-2.14A31.8 31.8 0 0 0 24 12a31.8 31.8 0 0 0-.5-5.8zM9.75 15.57V8.43L15.84 12l-6.09 3.57z" />
         </svg>
       );
+    case "soundcloud":
+      return (
+        <svg {...common} fill="currentColor">
+          <path d="M17.6 10.2a2.7 2.7 0 0 0-1.7-1 4.6 4.6 0 0 0-8.8 1.3 3.4 3.4 0 0 0 .4 6.7h9.6a2.9 2.9 0 0 0 .5-5.8z" />
+        </svg>
+      );
     case "instagram":
       return (
         <svg {...common} fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -53,6 +59,7 @@ const tile: Record<Platform, string> = {
   spotify: "bg-[#1DB954] text-white",
   apple_music: "bg-[#FA243C] text-white",
   youtube: "bg-[#FF0033] text-white",
+  soundcloud: "bg-[#FF5500] text-white",
   instagram: "bg-[linear-gradient(135deg,#f9ce34,#ee2a7b_55%,#6228d7)] text-white",
   tiktok: "bg-neutral-950 text-white",
   bandcamp: "bg-[#1DA0C3] text-white",
