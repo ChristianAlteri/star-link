@@ -73,7 +73,7 @@ export function BandPage({ tenant }: { tenant: PublicTenant }) {
   }
 
   return (
-    <PageShell name={tenant.name} tagline={tenant.tagline} bannerUrl={tenant.bannerUrl}>
+    <PageShell name={tenant.name} bannerUrl={tenant.bannerUrl}>
       {consent === "accepted" && pixelId ? <MetaPixel pixelId={pixelId} /> : null}
 
       <header className="space-y-3 text-center">

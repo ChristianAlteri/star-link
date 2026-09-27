@@ -10,7 +10,7 @@ export default async function PrivacyPage() {
   if (!tenant) notFound();
 
   return (
-    <PageShell name={tenant.name} tagline={tenant.tagline}>
+    <PageShell name={tenant.name}>
       <header className="space-y-3 text-center">
         <h1 className="text-3xl font-semibold tracking-tight text-neutral-950 sm:text-4xl">Privacy</h1>
         <p className="mx-auto max-w-xl text-sm text-neutral-600">{tenant.name}</p>
